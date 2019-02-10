@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+h1 {
+  color: gray;
+  text-align: center;
+}
+
+.searchIcon {
+  color: green;
+  position: absolute;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.fa-exchange {
+  color: green;
+  position: absolute;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.hoverIcon {
+  display: none;
+  padding: 4px;
+}
+
+.searchBookContainer {
+  display: inline;
+}
+
+.bookItem {
+  float: left;
+  display: inline;
+  margin: 10px;
+}
+
+.bookItem:hover .hoverIcon{
+  display: block;
+}
+
+.requestButton {
+  margin-bottom: 15px;
+}
+
+.requestItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.requestItem h2 {
+  margin-bottom: 0;
+}
+
+.requestBookTitle {
+  float: left;
+}
+
+.requestIcons {
+  display: inline;
+  float: right;
+  font-size: 25px;
+}
+
+.requestIcons .fa {
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.requestIcons .fa-times {
+  color: red;
+}
+
+.requestIcons .fa-check {
+  color: green;
+}
+
+.lead {
+  text-align: center;
+}
